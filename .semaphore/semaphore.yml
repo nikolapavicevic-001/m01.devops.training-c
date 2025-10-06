@@ -5,7 +5,7 @@ agent:
     type: f1-standard-2
     os_image: ubuntu2004
 blocks:
-  - name: Build
+  - name: Build!
     task:
       jobs:
         - name: Make app
